@@ -11,7 +11,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: '/Gerenciador_de_Tarefas/task',
+    path: '/task',
     element: <TaskPage />
   }
 ]);
