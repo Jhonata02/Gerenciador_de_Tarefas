@@ -1,8 +1,8 @@
-import { ChevronRightIcon, Trash, Trash2Icon, TrashIcon } from "lucide-react";
+import { ChevronRightIcon, Trash2Icon} from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 import { FaCheckCircle } from "react-icons/fa";
-import {CiTrash} from "react-icons/ci";
+
 function Tasks({tasks, onDeleteTaskClick, onTaskClick}) {
 
     const navigate = useNavigate();
