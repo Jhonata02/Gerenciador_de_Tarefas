@@ -7,11 +7,11 @@ import TaskPage from './pages/TaskPage.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/Gerenciador_de_Tarefas',
     element: <App />,
   },
   {
-    path: '/task',
+    path: '/Gerenciador_de_Tarefas/task',
     element: <TaskPage />
   }
 ]);
